@@ -31,7 +31,7 @@ headers={
 # response=requests.post(url=graph_endpoint,json=create_graph,headers=headers)
 # print(response.text)
 
-today=datetime(year=2024,month=7,day=12)
+today=datetime.now()
 user_input=input("What do you want to do?'add','update' or 'delete':").lower()
 
 if user_input=="add":
